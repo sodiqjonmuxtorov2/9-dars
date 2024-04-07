@@ -1,0 +1,76 @@
+.main{
+    background-color: #293039;
+    margin-top: 144px;
+}
+.main__item {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 100%;
+    color: #fdd6ba;
+}
+.main__title {
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 114%;
+    color: #fff;
+    padding-top: 24px;
+}
+.main__block {
+    text-align: center;
+    padding: 80px 24px 80px 24px;
+}
+.main__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    color: #fff;
+    padding-top: 24px;
+}
+.main__list_item {
+    max-width: 327px;
+    padding-top: 56px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width:768px) {
+
+    .main__block {
+        padding: 80px 24px 80px 24px;
+
+    }
+.main__list{
+    max-width: 679px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 95px;
+    content: "";
+    background-image: url('../img/konus.svg');
+    background-repeat: no-repeat;
+}
+.main__list_item{
+    max-width: 223px;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto; 
+}
+}
+@media screen and (min-width:1280px) {
+    .main__block {
+        padding: 85px 100px 100px 150px;
+    }
+    .main__list{
+        max-width: 1040px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        gap: 95px;
+        content: "";
+        background-image: url('../img/konus.svg');
+        background-repeat: no-repeat;
+    }
+    .main__list_item{
+        max-width: 285px;
+        text-align: start;
+    }
+}
